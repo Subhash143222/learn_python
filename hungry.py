@@ -3,7 +3,5 @@ if hungry =="yes":
     print("eat  samosa")
     print("eat pizza")
     print("eat fries")
-elif hungry=="no":
-    print("do homework")
 else:
-    print("im not able to understand your answer")
+    print("do homework")
