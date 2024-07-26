@@ -3,6 +3,12 @@ if hungry =="yes":
     print("eat  samosa")
     print("eat pizza")
 elif hungry=="no":
-    print("do your homework")
+    thirsty=input("are you thirsty:")
+    if thirsty=="yes":
+        print("drink water")
+    elif thirsty=="no":
+        print("do your homework")
+    else:
+        print("im not able to understand your answer")
 else:
     print("im not able to understand your answer")
